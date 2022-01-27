@@ -6,7 +6,7 @@ import jp.jc21.t.yoshizawa.otopika.Otopika;
 
 
 /**
- * @author t.yoshizawa
+ * @author AB2B05
  *
  */
 public class OtoSample01  {
@@ -19,21 +19,13 @@ public class OtoSample01  {
 		oto.powerOn();
 		while(true) {
 			oto.lightAll();
-			oto.sleep();
 			oto.lightOff();
-			oto.sleep();
 			oto.lightGreen();
-			oto.sleep();
 			oto.lightGreenYellow();
-			oto.sleep();
 			oto.lightYellow();
-			oto.sleep();
 			oto.lightYellowRed();
-			oto.sleep();
 			oto.lightRed();
-			oto.sleep();
 			oto.lightGreenRed();
-			oto.sleep();
 		}
 
 	}
