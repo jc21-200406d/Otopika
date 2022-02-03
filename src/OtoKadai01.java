@@ -4,12 +4,11 @@ import jp.jc21.t.yoshizawa.otopika.Otopika;
  * 
  */
 
-
 /**
  * @author AB2B05
  *
  */
-public class OtoKadai01  {
+public class OtoKadai01 {
 
 	/**
 	 * @param args
@@ -17,15 +16,11 @@ public class OtoKadai01  {
 	public static void main(String[] args) {
 		Otopika oto = new Otopika();
 		oto.powerOn();
-		while(true) {
+		while (true) {
 			oto.lightAll();
+			oto.sleep();
 			oto.lightOff();
-			oto.lightGreen();
-			oto.lightGreenYellow();
-			oto.lightYellow();
-			oto.lightYellowRed();
-			oto.lightRed();
-			oto.lightGreenRed();
+			oto.sleep();
 		}
 
 	}

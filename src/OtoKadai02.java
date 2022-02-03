@@ -8,7 +8,7 @@ import jp.jc21.t.yoshizawa.otopika.Otopika;
  * @author AB2B05
  *
  */
-public class OtoSample01 {
+public class OtoKadai02 {
 
 	/**
 	 * @param args
@@ -17,14 +17,14 @@ public class OtoSample01 {
 		Otopika oto = new Otopika();
 		oto.powerOn();
 		while (true) {
-			oto.lightAll();
-			oto.lightOff();
 			oto.lightGreen();
-			oto.lightGreenYellow();
+			oto.sleep();
 			oto.lightYellow();
-			oto.lightYellowRed();
+			oto.sleep();
 			oto.lightRed();
-			oto.lightGreenRed();
+			oto.sleep();
+			oto.lightOff();
+			oto.sleep();
 		}
 
 	}
