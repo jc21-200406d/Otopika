@@ -19,7 +19,7 @@ public class OtoKadai5 {
 		oto1.powerOn();
 		oto2.powerOn();
 		while (true) {
-			oto2.lightOff();
+		
 			oto1.lightGreen();
 			oto1.sleep();
 			oto1.lightYellow();
@@ -31,9 +31,9 @@ public class OtoKadai5 {
 			oto2.sleep();
 			oto2.lightYellow();
 			oto2.sleep();
-			oto2.lightOff();	
 			oto2.lightRed();
 			oto2.sleep();
+			oto2.lightOff();
 		}
 
 	}
