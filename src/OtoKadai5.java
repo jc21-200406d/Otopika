@@ -18,8 +18,7 @@ public class OtoKadai5 {
 		Otopika oto2 = new Otopika();
 		oto1.powerOn();
 		oto2.powerOn();
-		while (true) {
-		
+		while (true) {	
 			oto1.lightGreen();
 			oto1.sleep();
 			oto1.lightYellow();
